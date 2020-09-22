@@ -5,12 +5,12 @@ This tool needs an MRN list (as in the included CSV file) with the patients' res
 
 To get the MRN list from Hospital numbers, see other repository of the Javascript Web Scraper which uses Node and Puppeteer web scraper (via Chromium - a standalone / headless Chrome browser).
 
-#Dependencies:
+# Dependencies:
 1. AutoHotkey must be installed.
 2. Excel >2017 must be installed.
 3. Google Chrome web browser must be installed.
 
-#How this script is intended to work
+# How this script is intended to work
 1. Prepare the mrn_list.csv as in the example.  Save it in the directory where the AHK script is.
 2. Close all other open programs.
 3. Open a blank Excel workbook.
