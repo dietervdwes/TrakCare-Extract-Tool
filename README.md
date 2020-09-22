@@ -30,7 +30,7 @@ Node modules needed:
 2. XLSX intalled using "npm -i xlsx -y"
 
 To run:
-1. Copy the files index.js, config.json, AllHospitalNumbers.xlsx and ScrapedMRNs.xlsx to a folder.
+1. Copy the files index.js, config.json, AllHospitalNumbers.xlsx and ScrapedMRNs.xlsx to a folder.  Edit config.json with a text editor so your TrakCare WebView username and password is in the correct field between inverted commas like so: ("N19592")
 2. Open a terminal window in the that folder location (easiest is to right click in the folder and click "Open with Code").
 3. Initiatlise a package by running "npm init -y"
 4. Type "npm -i xlsx -y" and hit enter.
