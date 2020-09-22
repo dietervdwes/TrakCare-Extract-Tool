@@ -1,0 +1,8 @@
+{
+    "username": "PutWebViewUsernameHere",
+    "password": "PutWebViewPasswordHere",
+    "url": "https://trakcarelabwebview.nhls.ac.za/trakcarelab/csp/system.Home.cls#/Component/SSUser.Logon",
+    "CSVFileName" : "./AllFolderNumbers.csv",
+    "WriteRawFile" : "./testwritefile",
+    "FinalXLSX" : "./scrapedMRNs.xlsx"
+  }
