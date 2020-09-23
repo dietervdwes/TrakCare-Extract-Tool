@@ -13,7 +13,7 @@ To get the MRN list from Hospital numbers, see other items below of the Javascri
 
 # How this script is intended to work
 1. Prepare the mrn_list.csv as in the example.  Save it in the directory where the AHK script is.
-2. Close all other open programs.
+2. Close all other open programs (especially any other AutoHotkey scripts open).
 3. Open a blank Excel workbook. Leave Excel Open.
 4. Open Chrome and navigate to http://trakdb-prod.nhls.ac.za:57772/csp/reporting/epr.csp?PAGE=4&vstRID=*&MRN= and leave the tab open.  Make sure the address bar is not selected.
 5. Open the ExtractTool.ahk and hit "GetEPRs".
