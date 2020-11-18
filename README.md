@@ -101,7 +101,7 @@ Step 4 : Terminal window commands
 In a terminal window type the following command to start extracting:
 node getMRNs.js
 Chromium browser should launch or an output should become visible in the command line.
-The MRN’s will output to a raw file: rawwritefile.csv. This file can be opened in VSCode or with any text editor, or saved as .csv by changing the file suffix. If the MRN list has been obtained and cleaned up, save it as “AllMRNsToBeScraped.csv” as noted above.
+The MRN’s will output to a raw file: rawwritefile.csv. This file can be opened in VSCode or with any text editor, or Excel. When the MRN list has been obtained and cleaned up, save it as “AllMRNsToBeScraped.csv” as noted above.
 Then in the terminal window type:
 node scrapeHST.js
 
