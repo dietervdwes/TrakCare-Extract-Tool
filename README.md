@@ -57,9 +57,13 @@ For Scraping MRN numbers from Hospital Folder Numbers (can be done from any netw
   a.	This is the main script to scrape MRN numbers.
 6.	foldernumbers.csv -must be formatted as:
   ...........
+  
   123456489725
+  
   1234564987984
+  
   123456498797
+  
   .............
 This file should contain the folder numbers which you wish to get the MRN numbers for.
 For Scraping the data from the MRN numbers (must be done from within the NHLS â€“ and preferably afterhours, especially if the internet is as slow as it currently is, to prevent this script from pulling data continually through the network)
@@ -68,10 +72,15 @@ For Scraping the data from the MRN numbers (must be done from within the NHLS â€
   a.	This is the main script to scrape the data from each MRN number.
 8.	AllMRNsToBeScraped.csv -must formatted like such:
   .............
+  
   MRN1234561235
+  
   MRN123456789465
+  
   MRN12345965498
+  
   MRN12345656554
+  
   .............
 a.	This is the file which should contain the MRN numbers of which you want the data from.
 
