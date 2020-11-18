@@ -71,8 +71,7 @@ For Scraping MRN numbers from Hospital Folder Numbers (can be done from any netw
 This file should contain the folder numbers which you wish to get the MRN numbers for.
 For Scraping the data from the MRN numbers (must be done from within the NHLS – and preferably afterhours, especially if the internet is as slow as it currently is, to prevent this script from pulling data continually through the network)
 
-7.	scrapeHST.js 
-  a.	This is the main script to scrape the data from each MRN number.
+7.	scrapeHST.js -This is the main script to scrape the data from each MRN number.
 8.	AllMRNsToBeScraped.csv -must formatted like such:
 
 .............
