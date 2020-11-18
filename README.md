@@ -23,7 +23,7 @@ To get the MRN list from Hospital numbers, see other items below of the Javascri
 
 This is a more advanced script which needs a few dependencies installed on the PC.  It interacts with TrakCare Webview to get the MRN numbers using a list of Hospital numbers as supplied to it by a file "AllFolderNumbers.csv" (needs to be in the same directory as the main script file: "index-new.js".
 
-# Start here if you did get all the necessary files via a Flash disk from Dieter
+# Start here if you DID get all the necessary files via a Flash disk from Dieter
 
 Introduction
 --------
@@ -56,7 +56,8 @@ For Scraping MRN numbers from Hospital Folder Numbers (can be done from any netw
 5.	getMRNs.js (must be copied)
   a.	This is the main script to scrape MRN numbers.
 6.	foldernumbers.csv -must be formatted as:
-  ...........
+
+...........
   
   123456489725
   
@@ -64,14 +65,16 @@ For Scraping MRN numbers from Hospital Folder Numbers (can be done from any netw
   
   123456498797
   
-  .............
+.............
+
 This file should contain the folder numbers which you wish to get the MRN numbers for.
 For Scraping the data from the MRN numbers (must be done from within the NHLS – and preferably afterhours, especially if the internet is as slow as it currently is, to prevent this script from pulling data continually through the network)
 
 7.	scrapeHST.js 
   a.	This is the main script to scrape the data from each MRN number.
 8.	AllMRNsToBeScraped.csv -must formatted like such:
-  .............
+
+.............
   
   MRN1234561235
   
@@ -81,7 +84,8 @@ For Scraping the data from the MRN numbers (must be done from within the NHLS �
   
   MRN12345656554
   
-  .............
+.............
+
 a.	This is the file which should contain the MRN numbers of which you want the data from.
 
 Step 3 – Open the folder in File Explorer by right clicking in an empty space and select “Open with Code”
@@ -106,7 +110,7 @@ To stop the extract mid-extract, click on the command window and hit Ctrl+C.
 
 
 
-# Start here if you didn't get all the files via a Flash disk from Dieter
+# Start here if you DIDN'T get all the files via a Flash disk from Dieter
 This script needs:
 1. Node.js installed on the PC.
 2. VS Code installed (not necessary but highly recommended).
