@@ -1,7 +1,7 @@
 # TrakCare-Extract-Tool
 An extraction tool for use with TrakCare backend and TrakCare WebView.  There are essentially two scripts in this repository:
 
-# 1. AHK TrakCare-Extract-Tool
+# 1. AHK TrakCare-Extract-Tool - This script is old, see "2. JavaScript..." script below
 This tool needs an MRN list (as in the included CSV file) with the patients' results and a PC with Microsoft Excel (at least 2017 version which uses/supports the modern Alt-hotkeys).
 
 To get the MRN list from Hospital numbers, see other items below of the Javascript Web Scraper which uses Node and Puppeteer web scraper (via Chromium - a standalone / headless Chrome browser).
