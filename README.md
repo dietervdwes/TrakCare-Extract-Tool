@@ -115,15 +115,19 @@ To stop the extract mid-extract, click on the command window and hit Ctrl+C.
 This script needs:
 1. Node.js installed on the PC.
 2. VS Code installed (not necessary but highly recommended).
+
 Node modules needed:
+
 1. Puppeteer installed using "npm -i puppeteer - y" from the CMD. (Chromium also needs to be installed, if it doesn't do automatically).
 2. XLSX intalled using "npm -i xlsx -y"
 
 To run:
+
 1. Copy all the files to a directory on the computer, including: config.json, foldernumbers.csv, AllMRNsToBeScraped.csv, getMRNs.js and scrapeHST.js.  Edit config.json with a text editor so your TrakCare WebView username and password is in the correct field between inverted commas like so: ("N19592") and your NHLS username and password is inserted.
 2. Open a terminal window in the that folder location (easiest is to right click in the folder and click "Open with Code" - which opens VSCode in that folder location).
 
 (Steps 3 -5 Optional if not having the node_modules and packages already.  Steps 3-5 are also near impossible on the NHLS network - for me at least...)
+
 3. Initiatlise a package by running "npm init -y"
 4. Type "npm -i xlsx -y" and hit enter.
 5. Type "npm -i puppeteer" -y and hit enter.  (Note steps 3-5 is only necessary if not downloading the whole "node_modules" from Github / from Dieter's Flash Drive.
