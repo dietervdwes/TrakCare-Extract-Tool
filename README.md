@@ -118,7 +118,7 @@ This script needs:
 
 Node modules needed:
 
-1. Puppeteer installed using "npm -i puppeteer - y" from the CMD. (Chromium also needs to be installed, if it doesn't do automatically).
+1. Puppeteer installed using "npm -i puppeteer - y" from the CMD.
 2. XLSX intalled using "npm -i xlsx -y"
 
 To run:
