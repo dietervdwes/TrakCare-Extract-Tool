@@ -127,7 +127,7 @@ To run:
 
 (Steps 3 -5 Optional if not having the node_modules and packages already.  Steps 3-5 are also near impossible on the NHLS network - for me at least...)
 
-3. Initiatlise a package by running "npm init -y"
+3. Initialise a package by running "npm init -y"
 4. Type "npm -i xlsx -y" and hit enter.
 5. Type "npm -i puppeteer" -y and hit enter.  (Note steps 3-5 is only necessary if not downloading the whole "node_modules" from Github / from Dieter's Flash Drive.
 
