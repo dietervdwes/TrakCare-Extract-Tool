@@ -21,7 +21,7 @@ To get the MRN list from Hospital numbers, see other items below of the Javascri
 
 # 2. JavaScript / Node / Puppeteer MRN extraction tool
 
-This is a more advanced script which needs a few dependencies installed on the PC.  It interacts with TrakCare Webview to get the MRN numbers using a list of Hospital numbers as supplied to it by a file "AllFolderNumbers.csv" (needs to be in the same directory as the main script file: "index-new.js".
+This is a more advanced script which needs a few dependencies installed on the PC.  It interacts with TrakCare Webview to get the MRN numbers using a list of Hospital numbers as supplied to it by a file "foldernumbers.csv" and "AllMRNsToBeScraped.csv" respectively (needs to be in the same directory as the main script file: "index-new.js".
 
 # Start here if you DID get all the necessary files via a Flash disk from Dieter
 
@@ -134,3 +134,6 @@ To run:
 
 6. To start MRN extract from TrakCare WebView, type: "node getMRNs.js"
 7. To start Data extract from HST EPR, type: "node scrapeHST.js"
+
+Shout for help, if needed.
+dieter.vdwesthuizen@nhls.ac.za
