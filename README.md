@@ -38,6 +38,7 @@ The main reason I’m using Puppeteer is because I have already learnt some Java
 Step 1 – Dependencies:
 ------------
 •	Make sure Node.js is installed on the computer where you are working (LTS version recommended).
+
 •	Make sure VSCode (Visual Studio Code) is installed on the computer where you are working.
 
 Step 2 – Getting the files and folders ready (can be put on a flash drive):
