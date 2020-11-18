@@ -1,8 +1,16 @@
 {
-    "username": "PutWebViewUsernameHere",
-    "password": "PutWebViewPasswordHere",
+    "webviewusername": "Username",
+    "webviewpassword": "Password",
+    "nhlsusername":"User.name",
+    "nhlspassword":"Pa55word%123",
     "url": "https://trakcarelabwebview.nhls.ac.za/trakcarelab/csp/system.Home.cls#/Component/SSUser.Logon",
-    "CSVFileName" : "./AllFolderNumbers.csv",
-    "WriteRawFile" : "./testwritefile",
-    "FinalXLSX" : "./scrapedMRNs.xlsx"
+    "FoldernumbersCSV" : "./foldernumbers.csv",
+    "CSVFileNameMRNs" : "./AllMRNsToBeScraped.csv",
+    "WriteRawFile" : "./rawwritefile.csv",
+    "FinalXLSX" : "./scrapedMRNs-AKI.xlsx",
+    "HST_XLSX" : "./HSTScrapedData.xlsx",
+    "EmployeeNumber" : "19xxx",
+    "Surname" : "SURNAMEHERE",
+    "DOB" : "1910-01-31"
+    
   }
