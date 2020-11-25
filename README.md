@@ -41,7 +41,7 @@ Step 1 – Dependencies:
 
 •	Make sure VSCode (Visual Studio Code) is installed on the computer where you are working.
 
-Step 2 – Getting the files and folders ready (can be put on a flash drive):
+Step 2 – Getting the files and folders ready (can also be obtained from a flash drive from Dieter):
 -----------
 Copy the Folder called “Web Scraping” anywhere with at least the following files and folders in it:
 1.	package.json 
@@ -86,6 +86,9 @@ For Scraping the data from the MRN numbers (must be done from within the NHLS �
   
 .............
 
+9. ScrapeCommentsUOA/SPE/HISTO to scrape the Free Text Comments (F6 comments).
+10. AllEpisodesToBeScraped.csv - formatted as above, just with episode numbers
+
 a.	This is the file which should contain the MRN numbers of which you want the data from.
 
 Step 3 – Open the folder in File Explorer by right clicking in an empty space and select “Open with Code”
@@ -125,7 +128,7 @@ To run:
 1. Copy all the files to a directory on the computer, including: config.json, foldernumbers.csv, AllMRNsToBeScraped.csv, getMRNs.js and scrapeHST.js.  Edit config.json with a text editor so your TrakCare WebView username and password is in the correct field between inverted commas like so: ("N19592") and your NHLS username and password is inserted.
 2. Open a terminal window in the that folder location (easiest is to right click in the folder and click "Open with Code" - which opens VSCode in that folder location).
 
-(Steps 3 -5 Optional if not having the node_modules and packages already.  Steps 3-5 are also near impossible on the NHLS network - for me at least...)
+(Steps 3 -5 Optional if not having the node_modules and packages already.  Steps 3-5 are also near impossible on the NHLS network - for me at least...  If this is attempted, be sure to connect to a reliable network without url filters, i.e. not the NHLS network - also to install puppeteer - step 5 - downloads around 400mb, so may take a few minutes)
 
 3. Initialise a package by running "npm init -y"
 4. Type "npm -i xlsx -y" and hit enter.
