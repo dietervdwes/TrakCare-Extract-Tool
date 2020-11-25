@@ -86,10 +86,11 @@ For Scraping the data from the MRN numbers (must be done from within the NHLS �
   
 .............
 
-9. ScrapeCommentsUOA/SPE/HISTO to scrape the Free Text Comments (F6 comments).
-10. AllEpisodesToBeScraped.csv - formatted as above, just with episode numbers
-
 a.	This is the file which should contain the MRN numbers of which you want the data from.
+
+9. ScrapeCommentsUOA.js or ...SPE.js or ...HISTO.js to scrape the Free Text Comments (F6 comments).
+10. AllEpisodesToBeScraped.csv - formatted as above, just with episode numbers for the F6 comments
+
 
 Step 3 – Open the folder in File Explorer by right clicking in an empty space and select “Open with Code”
 --------- 
