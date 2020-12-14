@@ -1,3 +1,7 @@
+//Written by Dieter van der Westhuizen
+//2020
+//dieter.vdwesthuizen@nhls.ac.za
+
 const puppeteer = require('puppeteer');
 const fs = require('fs')
 const config = require('./config.json')
