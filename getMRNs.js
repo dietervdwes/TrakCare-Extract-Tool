@@ -54,6 +54,7 @@ async function login() {
     });
     console.log("Starting extraction process:\nOpening browser and logging in...")
     const page = await browser.newPage();
+    page.setDefaultNavigationTimeout(320000);
     await page.authenticate({
         username: config.nhlsusername,
         password: config.nhlspassword,
@@ -99,6 +100,9 @@ async function type(p){
             scrapedData.push(pagedata)
 
             await p.click('#web_DEBDebtor_FindList_0-button-Clear')
+            await p.waitForSelector('#web_DEBDebtor_FindList_0-misc-noMatches')
+            await delay(2000);
+
             fs.appendFile(config.WriteRawFile, HospitalNo + ',' + pagedata.MRNnumber + ',' + pagedata.Name + ',' + pagedata.Surname + ',' + pagedata.DOB + ',' + pagedata.Sex + ',' + pagedata.Laboratory + '\n' , function(err) {
                 if (err) throw err;
                 console.log('The file was appended.');
